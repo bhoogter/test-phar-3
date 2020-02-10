@@ -1,0 +1,9 @@
+{
+  "files": [
+    "README.md",
+    "VERSION",
+    "LICENSE"
+  ],
+  "directories": ["src"],
+  "output": "test-phar-3.phar"
+}

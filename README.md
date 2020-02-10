@@ -1,1 +1,3 @@
-# test-phar-3
+Test Phar packages
+
+Used by other repos
