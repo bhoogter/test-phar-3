@@ -18,5 +18,7 @@ deploy:
   api_key:
     secure: YoDcmsbkeSxLnmyalCyXr+K9kQouV6Ev2EvNxKPwYl8roLeBS+NetaLQhKqroPrjQmNQPwf5HQjaGQjF+TlWIh1wTThFv1LMci7GuomIBGj+AYLd4diI5xEt+9loXjhmWjGgXOZCsYaRWhS2arks4dwP65AhVfNqVAKUAXTVjr6RCkVzsxCjoWQxzDbLJL2U3gGj1iI9pakgrh9If0KCs4aO0gjl9HMRCw8XuYAqjFH2JQ2OzStPwwezUDZePAC8WCpx1P9bAfG6sCYdi3d9jhNN7m/4wht0JQtUUMmvQOXOqucrQSnZ/6LybRPn9j8SRJWaVgKY/0+hBrZXWpZ+pXWv21ckCPAEFvf8L6uH4S5dO1mQHE3wk1uzX9ZCSI6VXX4mQUECK7aQBBfDV/+S/slUdBW6WLCDI48Ug1kjc031pVkLZ/Erh9MOya1LFmjVtYWo0Q06IlWs2nuWE0vHYWDN+ahwIFvwpYD6kNeM4tqEmC5GXbjAu16qUTIK0f7Bd7ZUWc3BurYuWuGhlDKGOatQu6PnBkxbn0RwnZe3O0nHNchXfFv9iymCxT5zi8yS52F+kM3UZJQ5mk4TJCTqklQ+PKyrT41KYSEEHZ/rnuYRSYnnkEXZDEkdIPnnNDN0ohZfg//JidDjIycRGoRWGO0bptvId6rBTAPOwESfY7g=
   file: test-phar-3.phar
+  skip-cleanup: true
   on:
     repo: bhoogter/test-phar-3
+    tags: true
